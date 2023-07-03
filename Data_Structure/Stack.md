@@ -28,4 +28,4 @@
 
     1. [DFS](https://github.com/Semibro/DataStructure_Algorithm/blob/main/Algorithm/DFS.md#%EA%B9%8A%EC%9D%B4%EC%9A%B0%EC%84%A0%ED%83%90%EC%83%89-dfs)
 
-    2. [DP(Dynamic Programming)]()
+    2. [DP(Dynamic Programming)](https://github.com/Semibro/DataStructure_Algorithm/blob/main/Algorithm/DP.md#%EB%8F%99%EC%A0%81%EA%B3%84%ED%9A%8D%EB%B2%95-dp-dynamic-programming)
