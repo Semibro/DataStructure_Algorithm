@@ -108,4 +108,4 @@
 
 - 큐를 활용한 알고리즘
 
-    1. BFS
+    1. [BFS](https://github.com/Semibro/DataStructure_Algorithm/blob/main/Algorithm/BFS.md#%EB%84%88%EB%B9%84%EC%9A%B0%EC%84%A0%ED%83%90%EC%83%89-bfs)
