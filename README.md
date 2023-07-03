@@ -1,1 +1,5 @@
-# DataStructure_Algorithm
+# 데이터구조 & 알고리즘 정리
+
+## 데이터구조
+
+## 알고리즘
