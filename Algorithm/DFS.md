@@ -46,3 +46,37 @@
     ```
 
 - 깊이우선탐색
+
+    ```python:DFS.py
+    graph = [[0] * 8 for _ in range(8)]  # 그래프를 만들어서 시작
+
+    n = int(input())  # 입력부분
+    for _ in range(n):  # for문입력부분
+        a, b = map(int, input().split())
+        # 인접행렬사용 / 인접리스트 사용 시 위와 코드 참조
+        graph[a][b] = 1  # 무방향 그래프의 경우 양쪽으로 다 받아준다.
+        graph[b][a] = 1
+
+    visited = [False] * 8  # 방문여부 처리를 위한 visited배열 생성
+    stack = []  # 스택 생성
+    res = []  # 결과 저장 리스트 생성
+
+    v = 1  # 시작점이 1일경우
+    visited[v] = True  # 방문처리
+    res.append(v)  # 결과에 추가
+
+    while True:  # while문을 사용하여 stack이 전부 빠질때까지 작동
+        for w in range(8):
+            if graph[v][w] and not visited[w]:  #그래프를 이용해 움직이면서 방문하지 않은 곳
+                stack.append(v)  # 스택에 추가
+                v = w  # w를 v로 변경
+                visited[w] = True # w 방문함
+                res.append(w)  # 결과에 추가
+                break
+        else:
+            if stack:  # stack에 추가할 것이 없다면
+                v = stack.pop()  # pop을 통해서 v값 다시 설정
+            else: # 스택이 비어있으면
+                break
+    print('-'.join(map(str, res)))
+    ```
