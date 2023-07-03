@@ -2,4 +2,4 @@
 
 ## [데이터구조](https://github.com/Semibro/DataStructure_Algorithm/tree/main/Data_Structure)
 
-## 알고리즘
+## [알고리즘](https://github.com/Semibro/DataStructure_Algorithm/tree/main/Algorithm)
