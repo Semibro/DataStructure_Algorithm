@@ -15,7 +15,7 @@
         print(a*2) # ans : pythonpython
 
         print(a+b) # ans : pythonhello
-      ```
+        ```
 
     4. 문자열 인덱싱
 
